@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>CY's Race Track</title>
+
+	<!-- Main CSS -->
+	<link rel="stylesheet" href="main.css">
+</head>
+<body>
+	<div class="container">
+		<div class="christmas-tree">
+			<div class="pre-stage">Pre-Stage<br>
+				<div class="stage-lights"></div>
+				<div class="stage-lights"></div>
+				<div class="stage-lights"></div>
+				<div class="stage-lights"></div>
+			</div>
+			<div class="stage-area">Stage<br>
+				<div class="stage-lights"></div>
+				<div class="stage-lights"></div>
+				<div class="stage-lights"></div>
+				<div class="stage-lights"></div>
+			</div>
+			<div class="amber-ready">
+				<div class="tree-lights"></div>
+				<div class="tree-lights"></div>
+				<div class="tree-lights"></div>
+				<div class="tree-lights"></div>
+				<div class="tree-lights"></div>
+				<div class="tree-lights"></div>
+
+			</div>
+			<div class="green-means-go">
+				<div class="tree-lights"></div>
+				<div class="tree-lights"></div>
+			</div>
+			<div class="red-foul">
+				<div class="tree-lights"></div>
+				<div class="tree-lights"></div>
+			</div>
+		</div>
+		
+		<div class="road-way">
+			<div class="race-track">
+				<div id="mario-kart"></div>
+				<div class="pre-stage-line"></div>
+				<div class="start-line"></div>
+				<div class="finish-line"></div>
+			</div>
+		</div>
+	</div>
+
+<script>
+	var move = document.getElementById('mario-kart');
+	move.style.left = "0px";
+	window.addEventListener('keyup', function(event) {
+		if (event.keyCode === 39){
+		move.style.left = parseInt(move.style.left, 10) + 25 + "px";
+		}
+	});
+</script>
+
+</body>
+</html>

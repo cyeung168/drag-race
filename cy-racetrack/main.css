@@ -1,0 +1,144 @@
+html { 
+	background: url(images/background.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+body { 
+	height: 100%;
+	min-height: 100%;
+	overflow: hidden;
+	color: #fff;
+	text-shadow: 0px 1px 5px rgba(0,0,0,0.1);
+}
+
+body, input { 
+	font-family: "HelveticaNeue-Medium", "Helvetica Neue Medium", "Helvetica Neue", Helvetica, Arial, sans-serif;
+ }
+
+ul, ol { 
+	margin: 0;
+ 	padding: 0;
+ 	list-style: none;
+ }
+
+.font-light { 
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif; 
+}
+.font-medium { 
+	font-family: "HelveticaNeue-Medium", "Helvetica Neue Medium", "Helvetica Neue", Helvetica, Arial, sans-serif; 
+}
+	
+.container {
+	width: 75%;
+	margin: auto;
+}
+
+.christmas-tree {
+	width:7%;
+	background: black;
+	padding: 15px;
+	border-radius: 10px;
+}
+
+.tree-lights {
+	border-radius: 50%;
+	width: 30px;
+	height: 30px; 
+	background: white;
+	display: inline-block;
+
+	/* width and height can be anything, as long as they're equal */
+}
+.stage-lights {
+	border-radius: 50%;
+	width: 15px;
+	height: 15px; 
+	background: white;
+	display: inline-block;
+	/* width and height can be anything, as long as they're equal */
+}
+
+.pre-stage {
+	margin: auto;
+	text-align: center;
+
+}
+
+.stage-area {
+	margin: auto;
+	text-align: center;
+}
+
+.amber-ready {
+	margin: auto;
+	text-align: center;
+}
+
+.green-means-go{
+	margin: auto;
+	text-align: center;
+
+
+}
+
+.red-foul {
+	margin: auto;
+	text-align: center;
+}
+
+.road-way{
+    width: 100%;
+    height: 125px;
+    background-color: black;
+    border: 4px solid gray;
+    margin: auto;
+    position: absolute;
+    top: 295px; left: 0; bottom: 0; right: 0;
+}
+
+.race-track {
+    width: 60%;
+    height: 125px;
+    background-color: black;
+    /*border: 4px solid gray;*/
+    margin: auto;
+}
+
+.pre-stage-line{
+    width: 2%;
+    background: yellow;
+    position: relative;
+    height: inherit;
+    margin-left: 8%;
+    display: inline-block;
+}
+
+.start-line {
+    width: 2%;
+    background: yellow;
+    margin-left: 10%;
+    position: relative;
+    height: inherit;
+    display: inline-block;
+}
+
+.finish-line{
+	width: 2%;
+	background: white;
+	margin-left: 64%;
+	position: relative;
+	height: inherit;
+	display: inline-block;
+}
+
+#mario-kart {
+	content: url(images/mario-75.png) no-repeat;
+	width: 75px;
+	height: 50px;
+	position: absolute;
+	top: 25px;
+}
+
